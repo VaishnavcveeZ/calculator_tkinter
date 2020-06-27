@@ -46,7 +46,7 @@ button_2=Button(window,text='2' ,font=bfont,borderwidth=w2,padx=x,pady=y,bg='#B2
 button_3=Button(window,text='3' ,font=bfont,borderwidth=w2,padx=x,pady=y,bg='#B22222',command=lambda: button_click(3)).grid(row= 6,column=2)
 button_MUL=Button(window,text='x' ,font=bfont,borderwidth=w1,padx=67,pady=y,bg='#666699',command=lambda: button_click('x')).grid(row=6 ,column=3)
 
-button_DOT=Button(window,text='.' ,font=bfont,borderwidth=w2,padx=51,pady=y,bg='#666699',command=lambda: button_click('.')).grid(row= 7,column=0)
+button_DOT=Button(window,text='.' ,font=bfont,borderwidth=w2,padx=52,pady=y,bg='#666699',command=lambda: button_click('.')).grid(row= 7,column=0)
 button_0=Button(window,text='0' ,font=bfont,borderwidth=w2,padx=x,pady=y,bg='#B22222',command=lambda: button_click(0)).grid(row= 7,column=1)
 button_EQL=Button(window,text='=' ,font=bfont,borderwidth=w2,padx=x,pady=y,bg='#eeeeee',command=lambda: button_click('=')).grid(row=7 ,column=2)
 button_DIV=Button(window,text='/' ,font=bfont,borderwidth=w1,padx=69,pady=y,bg='#666699',command=lambda: button_click('/')).grid(row= 7,column=3)
