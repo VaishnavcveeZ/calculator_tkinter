@@ -39,7 +39,7 @@ def button_add():
 
 
 def button_sub():
-    print('add')
+    print('sub')
     num1 = screen.get()
     global first
     global operator
@@ -50,7 +50,7 @@ def button_sub():
 
 
 def button_mul():
-    print('add')
+    print('mul')
     num1 = screen.get()
     global first
     global operator
@@ -61,7 +61,7 @@ def button_mul():
 
 
 def button_div():
-    print('add')
+    print('div')
     num1 = screen.get()
     global first
     global operator
@@ -81,13 +81,13 @@ def button_result():
         ans=screen.get()
 
     if operator=='sub':
-        screen.insert(0,num1 - float(num2))
+        screen.insert(0,first- float(num2))
 
     if operator=='mul':
-        screen.insert(0,num1 * float(num2))
+        screen.insert(0,first * float(num2))
 
     if operator=='div':
-        screen.insert(0,num1 / float(num2))
+        screen.insert(0,first / float(num2))
 
 
 
