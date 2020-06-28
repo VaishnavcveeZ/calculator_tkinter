@@ -2,6 +2,7 @@ from tkinter import *
 import tkinter.font as font
 import time
 s=0
+ans=0
 window=Tk()
 window.configure(bg='#22324e')
 window.title('CALCULATOR')
