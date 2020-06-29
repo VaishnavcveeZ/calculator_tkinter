@@ -1,6 +1,5 @@
 from tkinter import *
 import tkinter.font as font
-import time
 s=0
 ans=0
 window=Tk()
@@ -12,7 +11,7 @@ l.grid()
 myfont=font.Font(family='Helvetica')
 bfont=font.Font(size=15,weight='bold')
 
-screen=Entry(window, font=myfont,bg='#0000ff',fg='#F4D03F',width=50,borderwidth=5)
+screen=Entry(window, state='readonly',font=myfont,bg='#0000ff',fg='#F4D03F',width=45,borderwidth=8)
 screen.grid(row=1,column=0,columnspan=4,padx=10,pady=10,ipady=15)
 
 
